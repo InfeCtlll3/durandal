@@ -28,7 +28,8 @@ Importing and using durandal
 ----------------
 Download ``durandal.py`` and ``__init__.py`` files and place it on the folder site-packages/durandal/ of your system (create folder durandal in case it does not exist).
 
-Simple usage of durandal::
+Simple usage of durandal:
+
 
 .. code-block:: python
 
