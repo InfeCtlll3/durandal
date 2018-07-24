@@ -5,7 +5,7 @@ information needed in order to use durandal lib to digest and index nginx defaul
 
 Additional info
 ---------------
-This was customized to work with https://dotahotkeys.com page format. In case you with to customize for your nginx webserver, you can fork it or just PM me at contato.carmando@gmail.com.
+This was customized to work with https://dotahotkeys.com page format. In case you wish to customize for your nginx webserver, you can fork it or just PM me at contato.carmando@gmail.com.
 
 ps.: It also has a iplocation.net wrapper in order to grab information on the ip address that accessed the site.
 
@@ -46,7 +46,7 @@ Simple usage of durandal:
 
 durandal private class functions
 ----------------
-``outputDB(self, *args)`` function used to generate the new db in case it does not exist, and populate the db with the acquired information.
+``outputDB(self, *args)`` function used to generate the new db (file and its tables schema) in case it does not exist, and populate the db with the acquired information (it receives the data to push to the table args *args).
 
 ``getIpInfo(self, ip:str)`` wrapper built to consult iplocation.net website with the provided ip address. Will return a list of [ip, country, region city].
 
