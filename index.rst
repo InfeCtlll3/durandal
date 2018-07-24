@@ -31,8 +31,8 @@ Download ``durandal.py`` and ``__init__.py`` files and place it on the folder si
 Simple usage of durandal:
 
 
-.. code-block:: python
-
+   .. code-block:: python
+    
     from durandal import *
     coordinator = durandal("/Users/carmando/Downloads/log/")
     coordinator.dbfile = "/Users/carmando/PycharmProjects/Durandal/venv/output.db"
